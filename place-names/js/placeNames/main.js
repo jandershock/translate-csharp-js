@@ -10,3 +10,11 @@ console.log("All Pace Names");
 for (const name of names) {
   console.log(name);
 }
+
+let namesStartingWithThe = names.filter(el => el.startsWith("The"));
+
+console.log("\n'The' Place Names");
+
+namesStartingWithThe.forEach(el => {
+  console.log(el);
+})
